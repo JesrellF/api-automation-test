@@ -17,19 +17,20 @@ https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
 
 ## **Tools to install:**
 
-*Note: If you have nodejs installed, no need of Installation*
+*Note: If you have Node.js and GIT installed in your machine, this step can be skipped*
 
-* **Nodejs: JavaScript runtime built**
+* **Node.js: JavaScript runtime built**
 
   > https://nodejs.org/en/download/
 
     https://nodejs.dev/learn/how-to-install-nodejs
 
 
-* **Git: version control/source code management**
+* **Git: Version control/source code management**
 
   > https://git-scm.com/downloads
-    https://git-scm.com/book/en/v1/Getting-Started-Installing-Git
+
+  https://git-scm.com/book/en/v1/Getting-Started-Installing-Git
 
     
 
@@ -53,26 +54,26 @@ https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
 
   > https://www.npmjs.com/package/mochawesome
 
-    https://nodejs.org/en/download/
 
-* **Git Repository:**
+**Git Repository:**
 
-    *Location of the test code/framework*
+  > Location of the test code/framework
 
-  > https://github.com/JesrellF/test-repo.git
+  https://github.com/JesrellF/api-automation-test
   
 ## Run Locally
-* **Directions to setup locally from terminal (assuming access to github is already setup and git is installed):**
+* **Directions to setup locally from terminal (assuming access to github is 
+already setup and git is installed):**
   ```
   cd ../<desired directory to store local copy of repo>
-  git clone https://github.com/JesrellF/test-repo.git
+  git clone https://github.com/JesrellF/api-automation-test.git
   ```
     *You can refer to the git Guide for git specific helpers or the official git website: https://git-scm.com/docs*
 
 * **Go to the project directory**
 
 ```bash
-  cd test-repo
+  cd api-automation-test
 ```
 
 * **Install dependencies**
@@ -87,7 +88,8 @@ https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
   npm test
 ```
 
-*You can generate report as an HTML*
+*You can generate report as an HTML and view it by clicking the mochawesome.html
+generated in mochawesome-report*
 ```bash
   npm test -- --reporter mochawesome
 ```
@@ -99,6 +101,6 @@ https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
 
 
 
-![GitHub all releases](https://img.shields.io/github/downloads/JesrellF/test-repo/total)
+![GitHub all releases](https://img.shields.io/github/downloads/JesrellF/api-automation-test/total)
 
-![GitHub all releases](https://img.shields.io/github/languages/code-size/JesrellF/test-repo)
+![GitHub all releases](https://img.shields.io/github/languages/code-size/JesrellF/api-automation-test)
